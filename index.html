@@ -20,14 +20,27 @@
             margin: 1rem;
             height: 10vh;
         }
+        .border {
+    background-color: #8fb882;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+        }
+        
     </style>
 </head>
 <body>
-    <h1>Groot translator</h1>
+    <h1 class="border">Groot translator</h1>
     <textarea id="txtInput" placeholder="Write your text here!"></textarea>
-    <button id="btnTranslate">Translate</button>
-    <div style="font-size: larger;">Output will come here 👇</div>
+    <div style="text-align: center"><button id="btnTranslate">Translate</button></div>
+    <div style="font-size: larger; text-align: center; margin: 1rem;">Output will come here 👇</div>
     <div id="output"></div>
+
+    <footer class="border">
+        <div style="font-weight: bold;
+        font-size: large">About</div>
+        <div>Groot is a fictional superhero appearing in American comic books published by Marvel Comics. Created by Stan Lee, Larry Lieber and Jack Kirby, the character was a hit in Guardians of the galaxy and Avengers movies. We went to Asguard to learn groot</div>
+    </footer>
 
     <script src="app.js" type="text/javascript"></script>
 </body>
